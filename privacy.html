@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Быть или не быть — политика конфиденциальности</title>
+<!--
+  Одна страница на два языка: в Play Console нужен ровно один адрес, а
+  рецензент может открыть её на любом языке. Русский сверху, английский ниже,
+  между ними — ссылка-якорь.
+
+  Стили внутри страницы: GitHub Pages отдаёт файл как есть, и лишний запрос
+  за таблицей стилей только замедлил бы открытие.
+-->
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 32px 20px 64px; max-width: 46rem;
+    font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1c; background: #fdfdfb;
+  }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .4rem; }
+  .meta { color: #666; font-size: .93rem; margin-bottom: 1.5rem; }
+  .switch { display: inline-block; margin-bottom: 2rem; font-size: .95rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 3.5rem 0; }
+  a { color: #0b63c5; }
+  ul { padding-left: 1.2rem; }
+  code { background: rgba(0,0,0,.06); padding: .1em .35em; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e8ea; background: #17171a; }
+    .meta { color: #a0a0a8; }
+    hr { border-top-color: #33333a; }
+    a { color: #7cb2ff; }
+    code { background: rgba(255,255,255,.1); }
+  }
+</style>
+</head>
+<body>
+
+<h1>Политика конфиденциальности</h1>
+<p class="meta">
+  Приложение «Быть или не быть» (<code>com.larineldar.tobeornottobe</code>)<br>
+  Разработчик: &lt;Larin Eldar&gt; · связь: &lt;larineldar@gmail.com&gt;<br>
+  Действует с &lt;4.10.2026&gt;
+</p>
+<p class="switch"><a href="#en">In English ↓</a></p>
+
+<h2>Коротко</h2>
+<p>Приложение не собирает персональные данные, не требует регистрации и не
+отправляет ваши данные ни разработчику, ни третьим лицам.</p>
+
+<h2>Что хранится на телефоне</h2>
+<p>Только то, что вы настроили сами:</p>
+<ul>
+  <li>выбранный язык и оформление;</li>
+  <li>порядок карточек и ваши собственные наборы вариантов;</li>
+  <li>настройки генераций: сколько кубиков, сколько спичек, максимум для
+      числа, чувствительность тряски;</li>
+  <li>последние выпадения — чтобы экран выглядел так же, как вы его
+      оставили.</li>
+</ul>
+<p>Всё это лежит в памяти самого приложения на вашем устройстве
+(<code>SharedPreferences</code>), никуда не передаётся и удаляется вместе с
+приложением.</p>
+
+<h2>Разрешения</h2>
+<p>Приложение не запрашивает разрешений. Для броска встряхиванием
+используется датчик движения — доступ к нему в Android разрешения не требует
+и не позволяет определить ни вас, ни ваше местоположение.</p>
+
+<h2>Интернет</h2>
+<p>Приложение не выходит в сеть. Ни при запуске, ни во время работы: рекламы
+в нём нет, рекламных библиотек нет, аналитики нет, и запросов никуда не
+уходит.</p>
+<p>Единственная ссылка наружу — на эту самую страницу, из раздела
+«О приложении». Открывает её ваш браузер, а не приложение.</p>
+<p>Если реклама однажды появится, об этом будет сказано здесь <b>до</b> того,
+как такая версия выйдет: поменяется этот раздел, поменяется дата внизу, и в
+описании обновления будет сказано, что именно изменилось.</p>
+
+<h2>Дети</h2>
+<p>Приложение не предназначено специально для детей и не собирает данные,
+позволяющие установить личность пользователя любого возраста.</p>
+
+<h2>Ваши права</h2>
+<p>Собранных данных нет, поэтому запрашивать, исправлять или удалять у
+разработчика нечего. Всё, что хранит приложение, удаляется кнопкой «Сбросить
+настройки» внутри приложения или удалением приложения с устройства.</p>
+
+<h2>Изменения</h2>
+<p>Новая редакция публикуется по этому же адресу; дата вверху показывает,
+когда она вступила в силу.</p>
+
+<hr>
+
+<h1 id="en">Privacy Policy</h1>
+<p class="meta">
+  “To be or not to be” (<code>com.larineldar.tobeornottobe</code>)<br>
+  Developer: &lt;LarinEldar&gt; · contact: &lt;larineldar@gmail.com&gt;<br>
+  Effective &lt;4.10.2026&gt;
+</p>
+
+<h2>In short</h2>
+<p>The app collects no personal data, requires no account, and sends nothing
+about you to the developer or to anyone else.</p>
+
+<h2>What is stored on your phone</h2>
+<p>Only what you set up yourself:</p>
+<ul>
+  <li>the chosen language and theme;</li>
+  <li>the order of the cards and your own sets of options;</li>
+  <li>per-generator settings: number of dice, number of matches, the maximum
+      for the number generator, shake sensitivity;</li>
+  <li>the most recent results, so the screen looks the way you left it.</li>
+</ul>
+<p>All of it is kept in the app's own storage on your device
+(<code>SharedPreferences</code>), never leaves it, and is removed together
+with the app.</p>
+
+<h2>Permissions</h2>
+<p>The app requests no permissions. Shake-to-roll uses the motion sensor,
+which on Android requires no permission and cannot identify you or your
+location.</p>
+
+<h2>Internet</h2>
+<p>The app does not use the network. Not at launch, not while running: it
+contains no ads, no advertising libraries and no analytics, and sends no
+requests anywhere.</p>
+<p>The only outbound link is to this page, from the About section. Your
+browser opens it, not the app.</p>
+<p>Should ads ever appear, this will be stated here <b>before</b> such a
+version ships: this section changes, the effective date changes, and the
+release notes say what changed.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children and collects no data that could
+identify a user of any age.</p>
+
+<h2>Your rights</h2>
+<p>Since no data is collected, there is nothing to request, correct or erase
+from the developer. Everything the app stores can be removed with “Reset
+settings” inside the app, or by uninstalling the app.</p>
+
+<h2>Changes</h2>
+<p>A new version of this policy is published at the same address; the date
+above shows when it took effect.</p>
+
+</body>
+</html>
